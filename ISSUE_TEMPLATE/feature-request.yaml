@@ -1,0 +1,63 @@
+name: 🚀 Feature Request
+description: "Suggest an idea for Zufall"
+title: "[Feature]: "
+labels: ["type: feature request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for taking the time to fill out this feature request!**
+
+        If you'd like to discuss this request first, please open a new discussion in our discussions forum or join the Zufall Labs community server on Discord.
+  - type: textarea
+    id: situation
+    attributes:
+      label: 🌟 Situation
+      description: Describe the current state of the project and why this feature is needed.
+      placeholder: Currently, the project lacks...
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: 🎯 Task
+      description: What specific feature or enhancement are you proposing?
+      placeholder: I would like to see...
+    validations:
+      required: true
+  - type: textarea
+    id: action
+    attributes:
+      label: 🛠️ Action
+      description: How do you envision this feature being implemented? Any ideas or suggestions?
+      placeholder: This could be implemented by...
+  - type: textarea
+    id: result
+    attributes:
+      label: 🏆 Result
+      description: What would be the expected outcome if this feature is added? How would it benefit users?
+      placeholder: This feature would improve...
+    validations:
+      required: true
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: 🙋‍♀️ Are you willing to contribute to this feature?
+      options:
+        - Yes, I'm ready to contribute!
+        - I can help, but I might need some guidance.
+        - Not at this time, but I'm excited to see it implemented!
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📝 Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](#)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        💖 Thanks for helping make Zufall awesome! 💖
