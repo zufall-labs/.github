@@ -1,12 +1,14 @@
 name: 🐛 Bug Report
-description: File a bug report
+description: File a bug report for Zufall
 title: "[Bug]: "
 labels: ["type: bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        **Thanks for taking the time to fill out this bug report!**
+
+        If you'd like to discuss this bug first, please open a new discussion in our discussions forum or join the Zufall Labs community server on Discord.
   - type: input
     id: version
     attributes:
