@@ -67,7 +67,7 @@ body:
     id: terms
     attributes:
       label: 🔍 Preflight Checklist
-      description: By submitting this issue, you agree to the following:
+      description: "By submitting this issue, you agree to the following:"
       options:
         - label: I have searched the existing issues and this is a new, non-duplicate bug
           required: true
