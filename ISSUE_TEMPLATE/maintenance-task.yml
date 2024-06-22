@@ -1,0 +1,46 @@
+name: 🚀 Maintenance Task
+description: "Describe a meintenance task for Zufall"
+title: "[Maintenance]: "
+labels: ["type: maintenance task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for taking the time to fill out this maintenance task form!**
+
+        If you'd like to discuss this request first, please open a new discussion in our discussions forum or join the Zufall Labs community server on Discord.
+  - type: textarea
+    id: task
+    attributes:
+      label: 🎯 Task
+      description: What maintenance task are you proposing?
+      placeholder: I would like to see...
+    validations:
+      required: true
+  - type: textarea
+    id: action
+    attributes:
+      label: 🛠️ Action
+      description: Do you have a suggestions for improving the current state?
+      placeholder: This could be implemented by...
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: 🙋‍♀️ Are you willing to implement this maintenance task?
+      options:
+        - Yes, I'll do it!
+        - No, I don't have the time for it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 📝 Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](#)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        💖 Thanks for making Zufall better! 💖
