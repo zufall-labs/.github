@@ -2,4 +2,4 @@ blank_issues_enabled: true
 contact_links:
   - name: Request help for any problem you encounter at 'Discussions'
     url: https://github.com/orgs/zufall-labs/discussions
-    about: Please visit our discussion forum for general support, questions, etc.
+    about: Please visit our discussions forum for general support, questions, etc.
