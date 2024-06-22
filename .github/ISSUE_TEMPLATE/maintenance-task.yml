@@ -23,6 +23,8 @@ body:
       label: 🛠️ Action
       description: Do you have a suggestions for improving the current state?
       placeholder: This could be implemented by...
+    validations:
+      required: true
   - type: dropdown
     id: contribute
     attributes:
