@@ -18,13 +18,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: action
+    id: act # Naming this 'action' pre-filles the field with 'new' xD
     attributes:
       label: 🛠️ Action
       description: Do you have a suggestions for improving the current state?
       placeholder: This could be implemented by...
-    validations:
-      required: true
   - type: dropdown
     id: contribute
     attributes:
