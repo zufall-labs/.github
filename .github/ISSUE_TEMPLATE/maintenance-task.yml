@@ -1,7 +1,7 @@
 name: 💻 Maintenance Task
 description: "Describe a maintenance task for Zufall"
 title: "[Maintenance]: "
-labels: ["type: maintenance task"]
+labels: ["type: maintenance"]
 body:
   - type: markdown
     attributes:
