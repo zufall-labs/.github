@@ -1,4 +1,4 @@
-**This is a custom template for issues!**
+## This is a custom template for issues!
 
 Please make sure there is no issue template for your specific need before you submit this custom issue.
 

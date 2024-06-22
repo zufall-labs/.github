@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Request programming help with coding challenges
-    url: https://forum.freecodecamp.org
-    about: Please visit this page for general support and programming help on coding challenges.
+  - name: Request help for any problem you encounter at 'Discussions'
+    url: https://github.com/orgs/zufall-labs/discussions
+    about: Please visit our discussion forum for general support, questions, etc.

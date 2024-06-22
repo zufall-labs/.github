@@ -1,5 +1,5 @@
-name: 🚀 Maintenance Task
-description: "Describe a meintenance task for Zufall"
+name: 💻 Maintenance Task
+description: "Describe a maintenance task for Zufall"
 title: "[Maintenance]: "
 labels: ["type: maintenance task"]
 body:
