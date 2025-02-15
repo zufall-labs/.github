@@ -1,13 +1,15 @@
 # The Zufall base repository
 
-This repository contains two different things.
+This repository has two functionalities.
 
 ### GitHub landing page
+
 It contains the content of our public GitHub landing page in the [dedicated README](/profile/README.md).
 
 ### Default health files
-It contains the default health files for our organization. Although not all the health files are being cascaded down to all other repositories, we still included them here. They work as follows:
-#### Cascaded
+
+It contains health files for our organization that are being cascaded down to all other repositories.
+
 1. [SECURITY.md](SECURITY.md)
 2. [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md)
 3. [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
@@ -16,8 +18,3 @@ It contains the default health files for our organization. Although not all the 
 6. [feature-request.yml](/.github/ISSUE_TEMPLATE/feature-request.yml)
 7. [maintenance-task.yml](/.github/ISSUE_TEMPLATE/maintenance-task.yml)
 8. [config.yml](/.github/ISSUE_TEMPLATE/config.yml)
-
-#### Must be manually copied
-1. [LICENSE](LICENSE)
-2. [CONTRIBUTING.md](CONTRIBUTING.md)
-3. [CODEOWNERS](CODEOWNERS)
